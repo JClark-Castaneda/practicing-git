@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #254d70;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, main nav, footer {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+header {
+    padding: 10px 10px 0;
+}
+
+    .header-logo {
+        vertical-align: middle;
+    }
+
+    .header-nav, .header-nav form, header ul li, .hero-header, main nav section, .news-title h2 {
+        display: inline-block;
+    }
+
+    .header-nav {
+        width: 75%;
+        text-align: right;
+    }
+
+        .donate-btn {
+            background-color: #ffe172;
+            border-radius: 5px;
+            color: #4d4d4d;
+            margin-right: 8px;
+            padding: 6.5px 12px 5.6px;
+        }
+
+        .header-nav form {
+            background-color: #222831;
+            border-radius: 5px;
+            padding: 10px 0 10px 12px;
+        }
+
+        .header-nav form input, button {
+            border: 0;
+            margin: 2px;
+            padding: 8px;
+        }
+
+        button {
+            background-color: #3475a9;
+            border-radius: 5px;
+            color: #fff;
+            margin-right: 10px;
+        }
+
+        .social-btn {
+            border-left: 1.5px solid #050f19;
+            color: #BBB;
+            padding: 15px 18px;
+        }
+
+    header ul {
+        background-color: #3673a7;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        box-shadow: #00000030 0px 10px 20px,
+            #0000003b 0px 6px 6px;
+        list-style-type: none;
+        margin: 16px 0 0;
+        padding: 0;
+        text-align: center;
+    }
+
+        header ul li {
+            border-right: 1px solid #447eae;
+            padding: 14px 18px;
+        }
+
+        header ul li a {
+            color: #FFF;
+            font-size: 20px;
+        }
+
+        .active {
+            background-color: #2a5a81;
+        }
+
+    .hero-container {
+        padding: 0 32px 0 99px;
+    }
+
+        .hero-container img {
+            position: absolute;
+            width: 520px;
+            height: 330px;
+        }
+
+        .hero-header {
+            margin: 32px 0 0;
+            width: 45%;
+        }
+
+            .hero-header p {
+                color: #fed550;
+                font-size: 27.6px;
+                font-weight: 900;
+                margin: 5px 0;
+            }
+
+            .hero-header .caption {
+                color: #FFF;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+main {
+    background-color: #fcfcfc;
+    margin-top: 5px;
+    height: 320px;
+}
+
+    main nav {
+        padding: 20px;
+    }
+
+        main nav .news-container {
+            margin: 0 5px;
+            width: 560px;
+        }
+
+            .news-title {
+                border-bottom: 1px solid #ccc;
+                border-top: 3px solid #7ba5cb;
+            }
+
+                .news-title h2 {
+                    font-weight: 400;
+                    padding: 15px 15px 8px 15px;
+                    width: 90%;
+                }
+
+                .news-title a {
+                    color: #bbb;
+                }
+
+            .news-container p {
+                border-bottom: 1px solid #ccc;
+                margin: 5px 0;
+                padding: 8px 15px;
+            }
+
+                .news-container p .date {
+                    margin-right: 35px;
+                }
+
+                .news-container p a {
+                    color: #6096c6;
+                }
+
+            .news-container .application span {
+                font-weight: 700;
+            }
+
+                .news-container .application a {
+                    background-color: #e7e9e7;
+                    border-bottom: 2px solid #ccc;
+                    color: #929595;
+                    padding: 1px 2px;
+                }
+
+footer {
+    margin-top: 30px;
+}
+
+    footer nav {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+        footer nav span, footer nav a {
+            color: #7da6d4;
+            margin: 0 8px;
+        }
+
+        .footer-links a {
+            font-size: 20px;
+        }
+
+            .status-icon {
+                color: #057e01;
+                font-size: 25px;
+            }
+
+        .copyright span, .copyright a {
+            font-size: 12px;
+        }
+
+        .copyright a {
+            border-bottom: 1px dotted #7da6d4;
+        }
